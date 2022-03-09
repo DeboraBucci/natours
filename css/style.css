@@ -51,6 +51,7 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .heading-primary {
@@ -58,6 +59,8 @@ body {
   text-transform: uppercase;
 
   backface-visibility: hidden;
+
+  margin-bottom: 60px;
 }
 
 .heading-primary-main {
