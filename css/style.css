@@ -113,3 +113,31 @@ body {
     transform: translateX(0);
   }
 }
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  padding: 15px 40px;
+  border-radius: 100px;
+
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: white;
+  color: #777;
+}
