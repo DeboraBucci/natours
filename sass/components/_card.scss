@@ -18,7 +18,9 @@
     backface-visibility: hidden;
 
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+    // THE BOX SHADOW GENERATES A BUG THAT MAKES THE BACK SIDE BUTTON OF THE CARD TO BE SHOWN IN CHROME
+    // box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
     &--front {
       background-color: $color-white;
