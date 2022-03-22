@@ -13,7 +13,7 @@
   transition: all 0.3;
 
   &__content {
-    @include center-horizontal-vertical;
+    @include absCenter;
 
     background-color: $color-white;
     width: 75%;
