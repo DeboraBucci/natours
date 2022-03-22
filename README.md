@@ -6,4 +6,4 @@ In the making of this project, I've learned to use SASS (using SCSS syntax) for 
 
 I also learned about SASS' architecture, how to structure the code, and how to separate it.
 
-_project in progress_
+_project in progress..._
