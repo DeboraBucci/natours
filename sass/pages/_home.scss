@@ -83,7 +83,6 @@
       url(../img/nat-10.jpg);
     background-size: cover;
   }
-  height: 50rem;
 
   @include respond(tab-port) {
     background-image: linear-gradient(
